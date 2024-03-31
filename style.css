@@ -1,0 +1,149 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Protest+Revolution&display=swap');  
+  
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+        font-family: "Gamja Flower", sans-serif;
+      
+    background-color: #F87575;
+}
+h1{
+    text-align: center;
+    padding: 2rem;
+    color: #3E505B;
+    font-size: 4rem;
+}
+p{
+    text-align: center;
+    color: #3E505B;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.container{
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.game{
+    
+    justify-content: center;
+    align-items: center;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFA9A3;
+    border: none;
+    border-radius: 1rem;
+    font-size: 5rem;
+    color: #7E6C6C;
+    font-family: "Gamja Flower", sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.reset{
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #3E505B;
+    border-radius: 10px;
+    font-family: "Gamja Flower", sans-serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    transition: 300 ms ease-in-out;
+}
+.reset:hover{
+    opacity: 0.7;
+}
+.reset:active{
+    opacity: 1;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #548687;
+    text-align: center;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
