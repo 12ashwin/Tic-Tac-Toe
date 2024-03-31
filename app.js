@@ -1,30 +1,3 @@
-// let boxes = document.querySelectorAll(".box");
-// let reset = document.querySelector(".reset");
-
-// let turnO = true; //playerX, playerO
-// let count = 0; //To Track Draw
-
-// boxes.forEach((box) => {
-//     box.addEventListener("click", () => {
-//       if (turnO) {
-//         //playerO
-//         box.innerText = "X";
-//         turnO = false;
-//       } else {
-//         //playerX
-//         box.innerText = "O";
-//         turnO = true;
-//       }
-
-
-//     });
-//   });
-
-// function clear(){
-//     boxes.forEach((box) => {
-//         box.innerText = "";
-//     });
-// }
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
